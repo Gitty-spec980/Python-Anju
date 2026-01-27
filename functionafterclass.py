@@ -1,4 +1,4 @@
-# Just put the addition are in comment because then the multiplactation was not going to work!:)
+# Just put the addition in comment because then the multiplactation was not going to work!:)
 
 # def addition(num1,num2):
 #     sum=0
