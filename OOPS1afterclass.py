@@ -1,15 +1,16 @@
 
-name="Anjali, I am a student in BRMS."
-is_student= True
+class anjali: pass
 
-print("Hello, my name is", name)
+class anjali:
+    def __init__(self, name, color):
+        self.name = name
+        self.color = color
 
-s="I love hanging out with my friends"
-print(len(s))
-print(s[5])
-print(s[10:13])
-fname="Anjali"
-lname="I am a student in BRMS"
-grade="7th grade"
 
-print("My name is ", fname+" "+lname, " and I am in curenntly in ", grade)
+    def intro(self):
+        print("hello, I am", self.name)
+
+
+human = anjali('Anjali','Light blue')
+
+human.intro()
