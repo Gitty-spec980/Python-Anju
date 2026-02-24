@@ -1,4 +1,4 @@
-n = int(input("Enter the number of terms: "))
+n = int(input("Enter number!:  "))
 
 for i in range(1, n + 1):
     exponent = i ** i
