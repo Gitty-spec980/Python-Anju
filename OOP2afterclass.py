@@ -7,5 +7,5 @@ class circle:
         print("The width of the circle is ", self.width)
         print("The area of the circle is ", self.length*self.width)
 
-ob1=circle(7,7)
+ob1=circle(4,7)
 ob1.area()
