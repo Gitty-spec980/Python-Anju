@@ -1,0 +1,3 @@
+Hello
+The file is opened in Write mode now
+The old content will be delted
