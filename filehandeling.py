@@ -14,7 +14,7 @@
 # #Write
 # f=open('abc.txt','w')
 # f.write('\nThe file is opened in Write mode now')
-# f.write('\nThe old content will be delted')
+# f.write('\nThe old content will be deleted')
 # f.close
 
 # f=open('abc.txt','r')
