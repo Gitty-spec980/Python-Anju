@@ -1,21 +1,12 @@
+num1 = 10
+num2 = 20
+num3 = 30
 
+print("Before all three numbers swap: num1 = {num1},num2 = {num2},num3 = {num3}, ")
 
-a = 10
-b = 20
-c = 30
+temp=num1
+num1=num2
+num1=num3
 
-print(f"Before: a={a}, b={b}, c={c}")
-
-a = a + b + c  
-
-
-b = a - (b + c) 
-
-
-c = a - (b + c) 
-
-
-a = a - (b + c)  
-
-print(f"After:  a={a}, b={b}, c={c}")
+print("After number swap: num1={num1}, num2 = {num2}, num3 = {num3}")
 
